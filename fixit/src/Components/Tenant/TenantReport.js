@@ -1,7 +1,12 @@
 import React from "react";
 import { Component } from "react";
+
+import SubmitBottom from "./SubmitBottom";
+import { FormNew } from "./FormNew";
+
 import { DropDomnMenu } from "../Dropmenu/DropDownMenu";
 import { Boxes } from "../Boxes/Boxes";
+
 
 export class TenantReport extends Component {
   render() {
@@ -20,10 +25,10 @@ export class TenantReport extends Component {
           <h3>A few blocks of options of issues the tenenat are facing</h3>
         </section>
         <section className="third-section">
-          <h3>Tanent information with name, email, and message</h3>
+          <FormNew />
         </section>
         <section className="fourth-section">
-          <h3>Submit bottom</h3>
+          <SubmitBottom />
         </section>
       </div>
     );
