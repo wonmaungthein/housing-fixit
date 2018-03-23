@@ -1,27 +1,31 @@
 import React from "react";
 import { Component } from "react";
+import "./feedBack.css";
+
 // import { Radio } from "react";
 // import { Radio } from "react-radio-group";
 import { RadioGroup, RadioButton } from "react-radio-buttons";
+import SubmitBottom from "./SubmitBottom";
 
 export class FeedBack extends Component {
   render() {
     return (
-      <div>
+      <div className="section">
         <h1>Please fill in the form for the FeedBack.</h1>
         <form>
           <h3>Is the issue fixed?</h3>
-          <input type="radio" name="fruit" value="apple" />Yes
-          <input type="radio" name="fruit" value="orange" />No
+          <span className="Radio-button">
+            <input type="radio" name="fruit" value="apple" />Yes
+          </span>
+          <span className="Radio-button">
+            <input type="radio" name="fruit" value="orange" />No
+          </span>
         </form>
         <label htmlFor="Please leave a message" />Leave a message
-        <input type="message" placeholder="Leave a message" />
-        {/* <Radio>Yes</Radio>
-
-        <p>
-          We have received your report and we will process within seven working
-          days.
-        </p> */}
+        <input className="message" type="message" />
+        <span>
+          <SubmitBottom />
+        </span>
       </div>
     );
   }
