@@ -22,7 +22,13 @@ export class FeedBack extends Component {
           </span>
         </form>
         <label htmlFor="Please leave a message" />Leave a message
-        <input className="message" type="message" />
+        <textarea
+          id="t3"
+          name="msg"
+          maxlength="140"
+          rows="5"
+          placeholder="Message"
+        />
         <span>
           <SubmitBottom />
         </span>

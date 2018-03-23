@@ -1,9 +1,7 @@
 import React from "react";
 import { Component } from "react";
-
 import SubmitBottom from "./SubmitBottom";
 import { FormNew } from "./FormNew";
-
 import { DropDomnMenu } from "../Dropmenu/DropDownMenu";
 import { Boxes } from "../Boxes/Boxes";
 
@@ -21,9 +19,7 @@ export class TenantReport extends Component {
         <section className="third-section">
           <FormNew />
         </section>
-        <section className="fourth-section">
-          <SubmitBottom />
-        </section>
+        <section className="fourth-section" />
       </div>
     );
   }
