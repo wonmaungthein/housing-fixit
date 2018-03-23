@@ -5,6 +5,7 @@ import SubmitBottom from "./SubmitBottom";
 import { FormNew } from "./FormNew";
 
 import { DropDomnMenu } from "../Dropmenu/DropDownMenu";
+import { Boxes } from "../Boxes/Boxes";
 
 
 export class TenantReport extends Component {
@@ -12,6 +13,7 @@ export class TenantReport extends Component {
     return (
       <div>
         <DropDomnMenu />
+        <Boxes />
         <h1>TenantReport Page</h1>
         <section className="first-section">
           <h3>
