@@ -1,0 +1,28 @@
+.section {
+  /* background-color: rgb(10, 100, 184); */
+  /* border: 2px solid yellow; */
+  height: 55rem;
+}
+
+h1 {
+  padding: 30px;
+  /* border: 2px solid yellow; */
+}
+
+form {
+  /* background: wheat; */
+  padding: 50px;
+  height: 15rem;
+  /* border: 2px solid black; */
+}
+
+.Radio-button {
+  /* border: 2px solid yellow; */
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.message {
+  width: 340px;
+  height: 160px;
+}
