@@ -16,7 +16,13 @@ export class FormNew extends Component {
           </p>
           <p>
             <label>Leave a short message</label>
-            <textarea id="t3" name="msg" maxlength="140" rows="5" />
+            <textarea
+              id="t3"
+              name="msg"
+              maxlength="140"
+              rows="5"
+              placeholder="Message"
+            />
           </p>
           <p>{/* <button>Submit</button> */}</p>
         </form>
