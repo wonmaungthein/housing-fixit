@@ -7,22 +7,16 @@ import { FormNew } from "./FormNew";
 import { DropDomnMenu } from "../Dropmenu/DropDownMenu";
 import { Boxes } from "../Boxes/Boxes";
 
-
 export class TenantReport extends Component {
   render() {
     return (
       <div>
-        <DropDomnMenu />
-        <Boxes />
         <h1>TenantReport Page</h1>
         <section className="first-section">
-          <h3>
-            {" "}
-            We will put the drop down menu to select the issues icon here
-          </h3>
+          <DropDomnMenu />
         </section>
         <section className="second-section">
-          <h3>A few blocks of options of issues the tenenat are facing</h3>
+          <Boxes />
         </section>
         <section className="third-section">
           <FormNew />
