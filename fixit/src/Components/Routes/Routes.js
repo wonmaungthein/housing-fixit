@@ -27,7 +27,7 @@ render() {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem >
-                            <NavLink href="/">TenantReport</NavLink>
+                            <NavLink href="/"></NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/Letting">Letting</NavLink>

@@ -5,7 +5,7 @@ export class Agent extends Component {
   render() {
     return (
       <div>
-        <h1>Drop Down</h1>
+        <h1>Agent</h1>
       </div>
     );
   }
