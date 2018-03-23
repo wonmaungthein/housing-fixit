@@ -27,7 +27,6 @@ class App extends Component {
         </div>
       </Router>
         <p className="App-intro">
-          <TenantReport />
         </p>
       </div>
     );
