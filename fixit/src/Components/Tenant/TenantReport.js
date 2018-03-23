@@ -1,12 +1,17 @@
 import React from "react";
 import { Component } from "react";
+
 import SubmitBottom from "./SubmitBottom";
 import { FormNew } from "./FormNew";
+
+import { DropDomnMenu } from "../Dropmenu/DropDownMenu";
+
 
 export class TenantReport extends Component {
   render() {
     return (
       <div>
+        <DropDomnMenu />
         <h1>TenantReport Page</h1>
         <section className="first-section">
           <h3>
