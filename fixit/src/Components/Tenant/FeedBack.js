@@ -21,14 +21,24 @@ export class FeedBack extends Component {
             <input type="radio" name="fruit" value="orange" />No
           </span>
         </form>
-        <label htmlFor="Please leave a message" />Leave a message
-        <textarea
-          id="t3"
-          name="msg"
-          maxlength="140"
-          rows="5"
-          placeholder="Message"
-        />
+        {/* <label htmlFor="Please leave a message" />Leave a message
+        <textarea id="t3" name="msg" maxlength="140" rows="5" placeholder="Message" />
+        */}
+        <div className="messagebox">
+          <p>
+            <label>Please leave a message</label>
+          </p>
+          <p>
+            <textarea
+              id="t3"
+              name="msg"
+              maxlength="140"
+              rows="5"
+              placeholder="Message"
+            />
+          </p>
+          <SubmitBottom onClick={alert} />
+        </div>
         <span>
           <SubmitBottom />
         </span>

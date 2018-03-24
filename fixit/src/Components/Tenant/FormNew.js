@@ -2,11 +2,6 @@ import React from "react";
 import { Component } from "react";
 import "./formnew.css";
 import SubmitBottom from "./SubmitBottom";
-// const alert = e => alert("This is alert");
-
-function alert(e) {
-  return alert("This is being clicked.");
-}
 
 export class FormNew extends Component {
   render() {
@@ -25,7 +20,6 @@ export class FormNew extends Component {
               <input type="email" id="t2" name="email" />
             </p>
           </div>
-
           <div className="messagebox">
             <p>
               <label>Please leave a message</label>
@@ -39,24 +33,10 @@ export class FormNew extends Component {
                 placeholder="Message"
               />
             </p>
-            <SubmitBottom onClick={alert} />
+            <SubmitBottom />
           </div>
-          <p />
         </form>
       </div>
     );
   }
 }
-
-// function ActionLink() {
-//   function handleClick(e) {
-//     e.preventDefault();
-//     console.log("The link was clicked.");
-//   }
-
-//   return (
-//     <a href="#" onClick={handleClick}>
-//       Click me
-//     </a>
-//   );
-// }
