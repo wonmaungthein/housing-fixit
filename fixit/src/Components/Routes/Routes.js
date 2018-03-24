@@ -27,34 +27,34 @@ class Routes extends React.Component {
   }
   render() {
     return (
-      <div className="bg-info clearfix" style={{ padding: ".5rem" }}>
-        <Navbar className="text-success" color="faded" light expand="md">
-          <NavbarBrand href="/"> TenantReport </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/" />
-              </NavItem>
-              <NavItem>
-                <NavLink href="/Tenant">Tenant</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/Letting">Letting</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/LandLord">Land Lord</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/Agent">Agent</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/RegisterPage">Register</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+        <div className="bg-info clearfix" style={{ padding: '.5rem' }}>
+            <Navbar className="text-success" color="faded" light expand="md">
+                <NavbarBrand href="/">  Tenant </NavbarBrand>
+                <NavbarToggler onClick={this.toggle} />
+                <Collapse isOpen={this.state.isOpen} navbar>
+                    <Nav className="ml-auto" navbar>
+                        <NavItem >
+                            <NavLink href="/"></NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/Tenant">TenantReport</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/Letting">Letting</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/LandLord">Auto Reply</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/Agent">Agent</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/RegisterPage">Register</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </div>
     );
   }
 }

@@ -7,7 +7,9 @@ export class Tenant extends Component {
   render() {
     return (
       <div>
+      <div>
         <LoginPage />
+      </div>
       </div>
     );
   }

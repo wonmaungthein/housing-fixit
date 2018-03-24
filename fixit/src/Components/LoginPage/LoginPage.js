@@ -22,8 +22,10 @@ export class LoginPage extends Component {
                 <input type="Password" id="t2" name="Password" />
               </p>
               <div>
-              <Button color="primary">Submit</Button>
-              </div>
+              <p>
+              <Button color="success"><Link to="/Tenant">  Submit  </Link></Button>
+             </p>
+            </div>
               <br/>
               <p>Not registered yet, Register Now</p>
               <br/>
