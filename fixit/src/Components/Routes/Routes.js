@@ -46,10 +46,13 @@ class Routes extends React.Component {
                             <NavLink href="/LandLord">Auto Reply</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/Agent">Agent</NavLink>
+                            <NavLink href="/Decision">Decision</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/RegisterPage">Register</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/Agent">Agent</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

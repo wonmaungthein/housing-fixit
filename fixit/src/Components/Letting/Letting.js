@@ -1,16 +1,21 @@
 import React from "react";
 import { Component } from "react";
+import { Link } from 'react-router-dom';
+import { Button } from "reactstrap";
 
 export class Letting extends Component {
   render() {
     return (
       <div>
         <h1>Letting</h1>
-        <p>Lettings
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        <p>
+        A letting agent is a term for a facilitator through which an agreement is made between a landlord and tenant for the rental of a residential property. The term is common in countries using British English, including countries of the Commonwealth. In the UK, Australia and New Zealand the agreement between landlord and tenant is normally formalised by the signing of a tenancy agreement. A letting agency will normally charge a commission for their services, usually a percentage of the annual rent.
+        Letting agents will often operate under the umbrella of an Estate Agent due to the synergies that exists between the two professions, but there are many agents that deal exclusively with lettings.
+        Although there are two main types of renting, letting agents deal primarily with tenancies between private individuals and landlords.
+        </p>
+        <p>
+        <Button color="success"><Link to="/Agent">  Submit   </Link></Button>
+       </p>
       </div>
     );
   }
