@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { LandLord } from "./Components/LandLord/LandLord";
 import { Letting } from "./Components/Letting/Letting";
 import { Agent } from "./Components/Agent/Agent";
+import { Tenant } from "./Components/Tenant/Tenant";
 import Routes from "./Components/Routes/Routes";
-import "./App.css";
+import { RegisterPage } from "./Components/LoginPage/RegisterPage";
 import { TenantReport } from "./Components/Tenant/TenantReport";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { FeedBack } from "./Components/Tenant/FeedBack";
 import { Acknoledge } from "./Components/LandLord/Acknoledge";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import { Footer } from "./Components/Footer/Footer";
 
 class App extends Component {
@@ -25,6 +27,9 @@ class App extends Component {
             <Route exact path="/Letting" component={Letting} />
             <Route exact path="/LandLord" component={LandLord} />
             <Route exact path="/Agent" component={Agent} />
+            <Route exact path="/Tenant" component={Tenant} />
+            <Route exact path="/RegisterPage" component={RegisterPage} />
+
           </div>
         </Router>
         <p className="App-intro">
