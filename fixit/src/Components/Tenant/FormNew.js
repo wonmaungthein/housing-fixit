@@ -1,7 +1,8 @@
 import React from "react";
 import { Component } from "react";
+import { Link } from 'react-router-dom';
+import { Button } from "reactstrap";
 import "./formnew.css";
-import SubmitBottom from "./SubmitBottom";
 
 export class FormNew extends Component {
   render() {
@@ -33,7 +34,11 @@ export class FormNew extends Component {
                 placeholder="Message"
               />
             </p>
-            <SubmitBottom />
+            <div>
+                 <p>
+                 <Button color="success"><Link to="/LandLord">  Register!  </Link></Button>
+                </p>
+               </div>
           </div>
         </form>
       </div>

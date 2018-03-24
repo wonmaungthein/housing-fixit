@@ -8,6 +8,7 @@
     "react-bootstrap-form": "^0.1.4-beta6",
     "react-dom": "^16.2.0",
     "react-form": "^3.4.2",
+    "react-icons": "^2.2.7",
     "react-radio-buttons": "^1.2.1",
     "react-radio-group": "^3.0.2",
     "react-router": "^4.2.0",

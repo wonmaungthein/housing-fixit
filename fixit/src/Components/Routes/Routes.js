@@ -29,7 +29,7 @@ class Routes extends React.Component {
     return (
         <div className="bg-info clearfix" style={{ padding: '.5rem' }}>
             <Navbar className="text-success" color="faded" light expand="md">
-                <NavbarBrand href="/">  TenantReport </NavbarBrand>
+                <NavbarBrand href="/">  Tenant </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
@@ -37,13 +37,13 @@ class Routes extends React.Component {
                             <NavLink href="/"></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/Tenant">Tenant</NavLink>
+                            <NavLink href="/Tenant">TenantReport</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/Letting">Letting</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/LandLord">Land Lord</NavLink>
+                            <NavLink href="/LandLord">Auto Reply</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/Agent">Agent</NavLink>

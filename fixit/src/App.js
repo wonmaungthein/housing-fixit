@@ -11,7 +11,7 @@ import { FeedBack } from "./Components/Tenant/FeedBack";
 import { Acknoledge } from "./Components/LandLord/Acknoledge";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { Footer } from "./Components/Footer/Footer";
+
 
 class App extends Component {
   render() {
@@ -23,20 +23,18 @@ class App extends Component {
         <Router>
           <div>
             <Routes />
-            <Route exact path="/" component={TenantReport} />
+            <Route exact path="/" component={Tenant} />
             <Route exact path="/Letting" component={Letting} />
             <Route exact path="/LandLord" component={LandLord} />
             <Route exact path="/Agent" component={Agent} />
-            <Route exact path="/Tenant" component={Tenant} />
+            <Route exact path="/Tenant" component={TenantReport} />
             <Route exact path="/RegisterPage" component={RegisterPage} />
 
           </div>
         </Router>
         <p className="App-intro">
-          {/* <Acknoledge /> */}
           {/* <FeedBack /> */}
         </p>
-        <Footer />
       </div>
     );
   }
