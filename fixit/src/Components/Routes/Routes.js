@@ -30,6 +30,9 @@ render() {
                             <NavLink href="/"></NavLink>
                         </NavItem>
                         <NavItem>
+                            <NavLink href="/Tenant">Tenant</NavLink>
+                        </NavItem>
+                        <NavItem>
                             <NavLink href="/Letting">Letting</NavLink>
                         </NavItem>
                         <NavItem>
@@ -37,6 +40,9 @@ render() {
                         </NavItem>
                         <NavItem>
                             <NavLink href="/Agent">Agent</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/RegisterPage">Register</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
