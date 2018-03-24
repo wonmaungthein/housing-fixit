@@ -36,10 +36,10 @@ export class RegisterPage extends Component {
                      <div/>
                     <div>
                         <p>
-                        <Link to="/loginPage">Cancel</Link>
+                        <Link to="/LoginPage">Cancel</Link>
                         </p>
                         <p>
-                        <Link to="/FeedBack">Enter</Link>
+                        <Link to="/Tenant">Enter</Link>
                         </p>
                     </div>
              </div>
