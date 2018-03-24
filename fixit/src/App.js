@@ -11,6 +11,7 @@ import { FeedBack } from "./Components/Tenant/FeedBack";
 import { Acknoledge } from "./Components/LandLord/Acknoledge";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { Footer } from "./Components/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
           {/* <Acknoledge /> */}
           {/* <FeedBack /> */}
         </p>
+        <Footer />
       </div>
     );
   }
