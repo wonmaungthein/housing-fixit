@@ -23,6 +23,11 @@
   font-size: large;
 }
 
+.Footer {
+  background: rgb(67, 112, 235);
+  height: 150px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
