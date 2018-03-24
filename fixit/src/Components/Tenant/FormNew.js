@@ -2,7 +2,6 @@ import React from "react";
 import { Component } from "react";
 import { Link } from 'react-router-dom';
 import { Button } from "reactstrap";
-import "./formnew.css";
 
 export class FormNew extends Component {
   render() {
@@ -36,7 +35,7 @@ export class FormNew extends Component {
             </p>
             <div>
                  <p>
-                 <Button color="success"><Link to="/LandLord">  Register!  </Link></Button>
+                 <Button color="success"><Link to="/LandLord">  Submit!  </Link></Button>
                 </p>
                </div>
           </div>
