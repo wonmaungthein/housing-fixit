@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 
 export class FormNew extends Component {
@@ -8,21 +8,10 @@ export class FormNew extends Component {
     return (
       <div>
         <form>
-          <div>
-            <p>
-              <label htmlFor="name">Name</label>
-              <input type="name" id="t2" name="name" />
-            </p>
-          </div>
-          <div>
-            <p>
-              <label>e-mail</label>
-              <input type="email" id="t2" name="email" />
-            </p>
-          </div>
+          <img src="#" alt="reportingphoto" height="150" width="150" />
           <div className="messagebox">
             <p>
-              <label>Please leave a message</label>
+              <label>Additional information</label>
             </p>
             <p>
               <textarea
@@ -34,10 +23,12 @@ export class FormNew extends Component {
               />
             </p>
             <div>
-                 <p>
-                 <Button color="success"><Link to="/Decision">  Submit!  </Link></Button>
-                </p>
-               </div>
+              <p>
+                <Button color="success">
+                  <Link to="/Decision"> Submit! </Link>
+                </Button>
+              </p>
+            </div>
           </div>
         </form>
       </div>

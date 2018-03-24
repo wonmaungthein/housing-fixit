@@ -1,8 +1,7 @@
 import React from "react";
 import { Component } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
-
 
 export class LandLord extends Component {
   render() {
@@ -14,15 +13,19 @@ export class LandLord extends Component {
           days.
         </p>
         <div>
-        <p>
-              <Button color="success"><Link to="/Tenant">  Exit  </Link></Button>
-             </p>
-            </div>
-            <div>
-              <p>
-              <Button color="info"><Link to="/LandLord"> Accept  </Link></Button>
-             </p>
-             </div>
+          <p>
+            <Button color="success">
+              <Link to="/Tenant"> Exit </Link>
+            </Button>
+          </p>
+        </div>
+        <div>
+          <p>
+            <Button color="info">
+              <Link to="/LandLord"> Accept </Link>
+            </Button>
+          </p>
+        </div>
       </div>
     );
   }
