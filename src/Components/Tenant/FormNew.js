@@ -35,7 +35,7 @@ export class FormNew extends Component {
             </p>
             <div>
                  <p>
-                 <Button color="success"><Link to="/LandLord">  Submit!  </Link></Button>
+                 <Button color="success"><Link to="/Decision">  Submit!  </Link></Button>
                 </p>
                </div>
           </div>

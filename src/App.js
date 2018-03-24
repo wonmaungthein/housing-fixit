@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { LandLord } from "./Components/LandLord/LandLord";
 import { Letting } from "./Components/Letting/Letting";
-import { Agent } from "./Components/Agent/Agent";
+import { Decision } from "./Components/Decision/Decision";
 import { Tenant } from "./Components/Tenant/Tenant";
+import { Agent } from "./Components/Agent/Agent";
 import Routes from "./Components/Routes/Routes";
 import { RegisterPage } from "./Components/LoginPage/RegisterPage";
 import { TenantReport } from "./Components/Tenant/TenantReport";
@@ -25,8 +26,9 @@ class App extends Component {
             <Routes />
             <Route exact path="/" component={Tenant} />
             <Route exact path="/Letting" component={Letting} />
-            <Route exact path="/LandLord" component={LandLord} />
             <Route exact path="/Agent" component={Agent} />
+            <Route exact path="/LandLord" component={LandLord} />
+            <Route exact path="/Decision" component={Decision} />
             <Route exact path="/Tenant" component={TenantReport} />
             <Route exact path="/RegisterPage" component={RegisterPage} />
 
