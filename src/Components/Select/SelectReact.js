@@ -16,12 +16,7 @@ export class SelectReact extends Component {
     return (
       <div>
         {/* <div className="section"> */}
-        <label htmlFor="select"> Please select your issues</label>
-        <div>
-          <input type="text" value="housing" />
-          <select name="name" id="" value="housing" />
-        </div>
-        <div />
+
         <h3 className="section-heading">
           {" "}
           Please select your issues icon below.
@@ -32,8 +27,14 @@ export class SelectReact extends Component {
             <img style={styles} src="fire.png" alt="some photos" />
           </div>
         </h3>
+        <label htmlFor="select"> Please select your issues</label>
+        <div>
+          <input type="text" placeholder="eg. bathroom" />
+          <select name="name" id="" value="housing" />
+        </div>
+        <div />
       </div>
-      // </div>
     );
+    // </div>
   }
 }
